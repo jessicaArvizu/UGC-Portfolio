@@ -5,7 +5,7 @@ import Star2 from "@/components/ui/star2-icon";
 
 export default function Header() {
   return (
-    <header className="inset-0 py-10 flex min-h-[80dvh] w-full flex-col items-center justify-center bg-[#FF8ACD] bg-[linear-gradient(to_right,#80808033_1px,transparent_1px),linear-gradient(to_bottom,#80808033_1px,transparent_1px)] bg-[size:70px_70px]">
+    <header className="inset-0 py-10 flex min-h-[80dvh] w-full flex-col items-center justify-center bg-[#FF8ACD] bg-[linear-gradient(to_right,#FFC6E733_1px,transparent_1px),linear-gradient(to_bottom,#FFC6E733_1px,transparent_1px)] bg-[size:70px_70px]">
       <div className="mx-auto max-w-full px-8 py-10 text-center lg:py-[30px] bg-white rounded-xl border-4 border-black flex flex-col lg:flex-row h-full shadow-[8px_8px_0px_#000] relative">
 
         <div className="absolute -top-10 -left-10 lg:-top-20 lg:-left-20">
@@ -18,7 +18,7 @@ export default function Header() {
               Hola, soy
             </h2>
             <br />
-            <h1 className="text-3xl font-heading md:text-4xl lg:text-5xl rounded-full p-4 px-8 bg-mint border-2 border-black shadow-[4px_4px_0px_#2AC3A2]">
+            <h1 className="text-3xl font-heading md:text-4xl lg:text-5xl rounded-full p-4 px-8 bg-mint border-2 border-black shadow-[8px_8px_0px_#2AC3A2]">
               Jessica
             </h1>
           </div>

@@ -1,52 +1,56 @@
-import { faker } from '@faker-js/faker'
+import Image from "next/image";
+import jessicaShot from '../public/img/IMG_2013.jpg';
+import Star4 from "@/components/ui/star4-icon";
+import { FaLocationDot } from "react-icons/fa6";
 
 export default function AboutMe() {
-  const review = () => {
-    return {
-      pfp: faker.image.avatar(),
-      fullName: faker.person.fullName(),
-      jobTitle: faker.person.jobTitle(),
-      review: faker.lorem.sentences({ min: 1, max: 3 }),
-    }
-  }
-
   return (
-    <section className="border-b-border dark:border-b-darkBorder dark:bg-darkBg inset-0 flex w-full flex-col items-center justify-center border-b-2 bg-white bg-[linear-gradient(to_right,#80808033_1px,transparent_1px),linear-gradient(to_bottom,#80808033_1px,transparent_1px)] bg-[size:70px_70px] font-base">
-      <div className="mx-auto w-container max-w-full px-5 py-20 lg:py-[100px]">
-        <h2 className="mb-14 text-center text-2xl font-heading md:text-3xl lg:mb-20 lg:text-4xl">
-          Loved by the community
+    <section
+      className="border-t-border border-b-border inset-0 flex w-full flex-col items-center justify-center border-b-2 border-t-2 bg-lavender bg-[linear-gradient(to_right,#b377df33_1px,transparent_2px),linear-gradient(to_bottom,#b377df33_2px,transparent_1px)] bg-[size:70px_70px] font-base"
+    >
+      <div className="mx-auto w-container max-w-full py-10">
+        <h2 className="text-center text-2xl font-heading md:text-3xl lg:text-4xl">
+          ¿Quién soy yo?
         </h2>
-        <div className="grid grid-cols-3 gap-4 lg:gap-8 w900:grid-cols-1 w900:gap-0">
-          {[
-            [review(), review()],
-            [review(), review(), review()],
-            [review(), review()],
-          ].map((card, index) => (
-            <div className="group flex flex-col justify-center" key={index}>
-              {card.map(({ jobTitle, pfp, fullName, review }, index) => (
-                <div
-                  className="border-border dark:border-darkBorder shadow-light dark:shadow-dark dark:bg-darkBg mb-4 min-h-48 w-full rounded-base border-2 bg-bg p-5 lg:mb-8 w900:mx-auto w900:min-h-20 w900:w-2/3 w500:w-full"
-                  key={index}
-                >
-                  <div className="flex items-center gap-5">
-                    <img
-                      className="border-border dark:border-darkBorder h-12 w-12 rounded-base border-2"
-                      src={pfp}
-                      alt="pfp"
-                    />
+      </div>
 
-                    <div>
-                      <h4 className="text-lg font-heading">{fullName}</h4>
-                      <p className="text-sm font-base">{jobTitle}</p>
-                    </div>
-                  </div>
-                  <div className="mt-5">{review}</div>
-                </div>
-              ))}
-            </div>
-          ))}
+      <div className="grid w-container max-w-full grid-cols-1 gap-5 px-20 sm:grid-cols-1 lg:grid-cols-2 pb-10">
+        <div className="flex flex-col justify-center lg:col-span-1">
+          <p className="text-lg font-normal leading-relaxed lg:text-xl">
+            Soy una persona creativa que disfruta documentar cada experiencia,
+            desde probar nuevas recetas hasta descubrir rincones únicos en mi ciudad.
+            Mi contenido abarca comida, belleza, skincare y lifestyle, siempre con un toque personal y auténtico.
+            Me encanta conectar con mi audiencia de manera cercana y amigable, buscando tanto inspirar como ser inspirada.
+          </p>
+          <br />
+          <p className="text-lg font-normal leading-relaxed lg:text-xl">
+            Mi objetivo principal es que cada pieza de contenido sea una representación genuina de mí misma,
+            conectando con una comunidad que valora lo auténtico y lo cotidiano.
+          </p>
+        </div>
+
+        <div className="relative flex items-center justify-center lg:col-span-1">
+          <Image
+            className="rounded-lg border-4 border-black shadow-[8px_8px_0px_#b377df]"
+            src={jessicaShot}
+            alt="Un vaso de latte frío"
+            height={500}
+          />
+
+          <div className="absolute bottom-10 right-25 bg-white border-4 border-black p-4 rounded-lg shadow-[8px_8px_0px_#88FFD1]">
+            <p className="text-base md:text-lg">
+              29 años | México | Guadalajara
+              <span className="inline-block ml-1">
+                <FaLocationDot />
+              </span>
+            </p>
+          </div>
+
+          <div className="absolute top-4 right-4 hidden md:block">
+            <Star4 color='#FF9AA2' size='100px' />
+          </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

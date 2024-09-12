@@ -22,8 +22,7 @@ export default function WhoAmI() {
           ))}
         </Marquee>
 
-        <div className="mx-auto my-14 grid w-container max-w-full grid-cols-1 gap-5 px-5 sm:grid-cols-1 lg:grid-cols-2">
-
+        <div className="mx-auto my-14 grid w-container max-w-full grid-cols-1 gap-5 px-20 sm:grid-cols-1 lg:grid-cols-2">
           <div className="relative flex items-center justify-center lg:col-span-1">
             <Image
               className="rounded-lg border-4 border-black shadow-[8px_8px_0px_#FFD567]"
