@@ -1,6 +1,6 @@
 import Image from "next/image";
 import jessicaArvizu from '../public/img/jessica-arvizu.png';
-import { FaInstagram, FaTiktok, FaEnvelope } from 'react-icons/fa'; // Importa iconos de redes sociales si usas react-icons
+import { FaInstagram, FaTiktok, FaEnvelope, FaAsterisk } from 'react-icons/fa'; // Importa iconos de redes sociales si usas react-icons
 import Star2 from "@/components/ui/star2-icon";
 
 export default function Header() {
@@ -30,6 +30,9 @@ export default function Header() {
           </div>
 
           <div className="flex justify-center space-x-4 pb-8">
+            <a href="https://linktr.ee/jessicaarvz" target="_blank" rel="noopener noreferrer">
+              <FaAsterisk className="text-black text-3xl" />
+            </a>
             <a href="https://www.instagram.com/jessicaarvz/" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-black text-3xl" />
             </a>
