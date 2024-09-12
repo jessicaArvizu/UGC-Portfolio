@@ -1,20 +1,16 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
-
-const Archivo = localFont({
-  src: "./fonts/Archivo-VariableFont_wdth,wght.ttf",
-  variable: "--font-archivo-variable",
-});
-
-const LexendMega = localFont({
-  src: "./fonts/LexendMega-Bold.ttf",
-  variable: "--font-lexend-mega",
-});
+import { Lexend_Mega } from "next/font/google";
+import { Public_Sans } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "Jessica Arvizu UGC",
 };
+
+const lexend_mega = Lexend_Mega({
+  weight: '700',
+  subsets: ['latin']
+})
 
 export default function RootLayout({
   children,
@@ -24,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${Archivo.variable} ${LexendMega.variable} antialiased`}
+        className={`${lexend_mega.className}`}
       >
         {children}
       </body>
