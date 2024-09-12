@@ -42,7 +42,7 @@ export default function WhoAmI() {
 
           <div className="flex flex-col justify-center lg:col-span-1">
             <p className="text-lg font-normal leading-relaxed md:text-xl lg:text-2xl">
-              Hola, soy Jessica Arvizu, una creadora de contenido
+              Hola, soy <span className="rounded-full p-1 px-8 bg-mint border-2 border-black">Jessica Arvizu</span>, una creadora de contenido
               entusiasta y apasionada.
             </p>
             <br />
