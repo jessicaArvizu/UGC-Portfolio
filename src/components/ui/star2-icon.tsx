@@ -1,11 +1,4 @@
-import React from 'react';
-
-interface Star2Props {
-    color: string;
-    size: string;
-}
-
-const Star2: React.FC<Star2Props> = ({ color, size }) => {
+const Star2 = ({ color, size }) => {
     return (
         <svg
             style={{ width: size, height: size }}
