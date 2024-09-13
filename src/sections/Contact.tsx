@@ -15,7 +15,7 @@ export default function Contact() {
 
                 <div className="flex flex-col items-center justify-center w-full lg:w-2/3 h-full space-y-3">
                     <div className="flex flex-col items-center justify-center">
-                        <h2 className="text-3xl font-heading md:text-4xl lg:text-5xl rounded-full p-4 px-8 bg-mint border-2 border-black shadow-[8px_8px_0px_#2AC3A2]">
+                        <h2 className="text-3xl font-heading md:text-4xl lg:text-5xl rounded-full p-4 px-8 bg-lightYellow border-2 border-black shadow-[8px_8px_0px_#E27F2E]">
                             ¡Trabajemos juntos!
                         </h2>
                     </div>
