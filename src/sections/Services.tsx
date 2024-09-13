@@ -11,12 +11,12 @@ export default function Services() {
         </h2>
       </div>
 
-      <div className="mx-auto my-14 grid w-container max-w-full grid-cols-1 gap-10 px-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto my-14 grid w-container max-w-full grid-cols-1 gap-10 px-8 lg:px-[20] sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div className="relative flex items-center lg:col-span-1">
           <div className="w-full bg-white border-4 border-black p-8 rounded-lg shadow-[8px_8px_0px_#2AC3A2] relative">
             <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 p-2">
-              <div className="w-32 h-32 bg-[#FF8ACD] text-black rounded-full flex items-center justify-center border-4 border-black shadow-[8px_8px_0px_#FFB587]">
-                <span className="text-xs">Precios</span>
+              <div className="w-16 h-16 lg:w-32 lg:h-32 bg-[#FF8ACD] text-black rounded-full flex items-center justify-center border-4 border-black shadow-[8px_8px_0px_#FFB587]">
+                <span className="text-[8px] lg:text-xs">Precios</span>
               </div>
             </div>
             <div>
@@ -84,8 +84,8 @@ export default function Services() {
         <div className="relative flex items-center lg:col-span-1 mt-20 lg:mt-5">
           <div className="w-full bg-white border-4 border-black p-8 rounded-lg shadow-[8px_8px_0px_#2AC3A2] relative">
             <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 p-2">
-              <div className="w-32 h-32 bg-[#FFD567] text-black rounded-full flex items-center justify-center border-4 border-black shadow-[8px_8px_0px_#b377df]">
-                <span className="text-xs">Negociable</span>
+              <div className="w-16 h-16 lg:w-32 lg:h-32 bg-[#FFD567] text-black rounded-full flex items-center justify-center border-4 border-black shadow-[8px_8px_0px_#b377df]">
+                <span className="text-[8px] lg:text-xs">Negociable</span>
               </div>
             </div>
             <div>

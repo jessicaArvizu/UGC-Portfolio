@@ -13,7 +13,7 @@ export default function TikTok() {
                 </h2>
             </div>
 
-            <div className="mx-auto grid w-container max-w-full grid-cols-1 gap-5 px-20 sm:grid-cols-1 lg:grid-cols-2">
+            <div className="mx-auto grid w-container max-w-full grid-cols-1 gap-5 px-8 lg:px-[20] sm:grid-cols-1 lg:grid-cols-2">
                 <div className="relative flex items-center justify-center lg:col-span-1">
                     <Image
                         className="rounded-lg border-4 border-black shadow-[8px_8px_0px_#FFD567]"
@@ -22,7 +22,7 @@ export default function TikTok() {
                         height={500}
                     />
 
-                    <div className="absolute bottom-10 right-48 bg-white border-4 border-black p-4 rounded-lg shadow-[8px_8px_0px_#FF8ACD]">
+                    <div className="absolute bottom-10 right-16 lg:right-48 bg-white border-4 border-black p-4 rounded-lg shadow-[8px_8px_0px_#FF8ACD]">
                         <ul className="text-base list-none space-y-2">
                             <li className="flex items-center">
                                 <Star3 color='#FF8ACD' size='20px' />

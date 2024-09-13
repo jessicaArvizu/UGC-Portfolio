@@ -14,7 +14,7 @@ export default function AboutMe() {
         </h2>
       </div>
 
-      <div className="grid w-container max-w-full grid-cols-1 gap-5 px-20 sm:grid-cols-1 lg:grid-cols-2 pb-10">
+      <div className="grid w-container max-w-full grid-cols-1 gap-5 px-8 lg:px-[20] sm:grid-cols-1 lg:grid-cols-2 pb-10">
         <div className="flex flex-col justify-center lg:col-span-1">
           <p className="text-lg font-normal leading-relaxed lg:text-xl">
             Soy una persona <span className="rounded-full p-1 px-4 bg-orange">creativa</span> que disfruta documentar cada experiencia,
