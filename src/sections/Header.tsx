@@ -5,7 +5,7 @@ import Star2 from "@/components/ui/star2-icon";
 
 export default function Header() {
   return (
-    <header className="inset-0 py-10 flex min-h-[80dvh] w-full flex-col items-center justify-center bg-[#FF8ACD] bg-[linear-gradient(to_right,#FFC6E733_1px,transparent_1px),linear-gradient(to_bottom,#FFC6E733_1px,transparent_1px)] bg-[size:70px_70px]">
+    <header className="inset-0 py-10 flex min-h-[80dvh] w-full flex-col items-center justify-center bg-[#FF8ACD] bg-[linear-gradient(to_right,#FFC6E733_2px,transparent_1px),linear-gradient(to_bottom,#FFC6E733_2px,transparent_1px)] bg-[size:70px_70px]">
       <div className="mx-auto max-w-full px-8 py-10 text-center lg:py-[30px] bg-white rounded-xl border-4 border-black flex flex-col lg:flex-row h-full shadow-[8px_8px_0px_#000] relative">
 
         <div className="absolute -top-10 -left-10 lg:-top-20 lg:-left-20">
