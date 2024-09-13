@@ -29,38 +29,16 @@ const config: Config = {
         lightMint: '#E3FFF3',
         mint: '#88FFD1',
         darkMint: '#2AC3A2',
-
-        // light mode
         bg: '#FFFBEE',
-        text: '#000',
-        border: '#000',
       },
       borderRadius: {
         base: '5px',
-      },
-      boxShadow: {
-        light: '4px 4px 0px 0px #000',
-        dark: '4px 4px 0px 0px #000',
-      },
-      translate: {
-        boxShadowX: '4px',
-        boxShadowY: '4px',
-        reverseBoxShadowX: '-4px',
-        reverseBoxShadowY: '-4px',
       },
       fontWeight: {
         base: '500',
         heading: '700',
       },
       keyframes: {
-        'accordion-down': {
-          from: { height: '0' },
-          to: { height: 'var(--radix-accordion-content-height)' },
-        },
-        'accordion-up': {
-          from: { height: 'var(--radix-accordion-content-height)' },
-          to: { height: '0' },
-        },
         marquee: {
           '0%': { transform: 'translateX(0%)' },
           '100%': { transform: 'translateX(-100%)' },
@@ -71,8 +49,6 @@ const config: Config = {
         },
       },
       animation: {
-        'accordion-down': 'accordion-down 0.2s ease-out',
-        'accordion-up': 'accordion-up 0.2s ease-out',
         marquee: 'marquee 15s linear infinite',
         marquee2: 'marquee2 15s linear infinite',
       },

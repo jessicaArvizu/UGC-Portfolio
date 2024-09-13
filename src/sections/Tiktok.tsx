@@ -6,7 +6,9 @@ import Star4 from "@/components/ui/star4-icon"
 
 export default function TikTok() {
     return (
-        <section className="bg-bg py-10">
+        <section
+            id='tiktok'
+            className="bg-bg lg:h-screen py-10 lg:py-20">
             <div className="mx-auto w-container max-w-full pb-10">
                 <h2 className="text-center text-2xl font-heading md:text-3xl lg:text-4xl">
                     TikTok <a href="https://www.tiktok.com/@jessicaarvz" target="_blank" rel="noopener noreferrer">@jessicaarvz</a>
@@ -41,14 +43,14 @@ export default function TikTok() {
 
                 </div>
                 <div className="flex flex-col justify-center lg:col-span-1">
-                    <p className="text-lg font-normal leading-relaxed lg:text-xl">
+                    <p className="text-sm font-normal leading-relaxed md:text-lg lg:text-xl xl:text-2xl">
                         <span className="rounded-full p-1 px-8 bg-mainPink"> TikTok</span> es la plataforma donde más me encanta crear
                         contenido y conectar con mi audiencia. Aquí es donde
                         comparto la mayor parte de mis vlogs, recetas, hauls, y
                         reseñas de restaurantes y cafeterías.
                     </p>
                     <br />
-                    <p className="text-lg font-normal leading-relaxed lg:text-xl">
+                    <p className="text-sm font-normal leading-relaxed md:text-lg lg:text-xl xl:text-2xl">
                         Estoy profundamente comprometida en hacer crecer esta
                         comunidad, ya que es donde me siento más en casa y donde
                         puedo ser yo misma y acercarme a quienes me siguen.
