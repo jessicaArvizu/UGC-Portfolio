@@ -15,7 +15,7 @@ export default function Services() {
         <div className="relative flex items-center lg:col-span-1">
           <div className="w-full bg-white border-4 border-black p-8 rounded-lg shadow-[8px_8px_0px_#2AC3A2] relative">
             <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 p-2">
-              <div className="w-24 h-24 bg-[#FF8ACD] text-white rounded-full flex items-center justify-center border-4 border-black shadow-[8px_8px_0px_#FFB587]">
+              <div className="w-32 h-32 bg-[#FF8ACD] text-black rounded-full flex items-center justify-center border-4 border-black shadow-[8px_8px_0px_#FFB587]">
                 <span className="text-xs">Precios</span>
               </div>
             </div>
@@ -81,10 +81,15 @@ export default function Services() {
           </ul>
         </div>
 
-        <div className="relative flex items-center lg:col-span-1">
+        <div className="relative flex items-center lg:col-span-1 mt-20 lg:mt-5">
           <div className="w-full bg-white border-4 border-black p-8 rounded-lg shadow-[8px_8px_0px_#2AC3A2] relative">
+            <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 p-2">
+              <div className="w-32 h-32 bg-[#FFD567] text-black rounded-full flex items-center justify-center border-4 border-black shadow-[8px_8px_0px_#b377df]">
+                <span className="text-xs">Negociable</span>
+              </div>
+            </div>
             <div>
-              <h2 className="text-xl text-center font-semibold mb-4">Intercambio de producto</h2>
+              <h2 className="text-xl text-center mt-6 lg:mt-1 font-semibold mb-4">Intercambio de producto</h2>
               <p className="text-base mb-4">
                 Incluye edición básica:
                 Cortes, texto, voiceover, voz en off, subtítulos, transiciones.
