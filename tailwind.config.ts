@@ -14,10 +14,6 @@ const config: Config = {
         container: '1300px',
       },
       colors: {
-        main: '#A3E636',
-        mainAccent: '#88cc19', // not needed for shadcn components
-        overlay: 'rgba(0,0,0,0.8)',
-        secondaryBlack: '#1b1b1b',
         lighterPink: '#FFe2f3',
         lightPink: '#FFC6E7',
         mainPink: '#FF8ACD',
