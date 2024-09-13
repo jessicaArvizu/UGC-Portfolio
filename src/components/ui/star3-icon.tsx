@@ -1,4 +1,11 @@
-const Star3 = ({ color, size }) => {
+import React from 'react';
+
+interface Star3Props {
+    color: string;
+    size: string | number; // Ajusta según tus necesidades para el tamaño
+}
+
+const Star3: React.FC<Star3Props> = ({ color, size }) => {
     return (
         <svg
             style={{ width: size, height: size }}

@@ -1,4 +1,9 @@
-const Star = ({ color, size }) => {
+interface StarProps {
+    color: string;
+    size: string | number; // Puedes ajustar esto según cómo esperas el tamaño.
+}
+
+const Star: React.FC<StarProps> = ({ color, size }) => {
     return (
         <svg
             style={{ width: size, height: size }}
@@ -12,7 +17,7 @@ const Star = ({ color, size }) => {
                 strokeWidth="2"
             />
         </svg>
-    )
+    );
 }
 
-export default Star
+export default Star;
