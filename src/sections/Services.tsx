@@ -85,7 +85,7 @@ export default function Services() {
           <div className="w-full bg-white border-4 border-black p-8 rounded-lg shadow-[8px_8px_0px_#2AC3A2] relative">
             <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 p-2">
               <div className="w-16 h-16 lg:w-32 lg:h-32 bg-[#FFD567] text-black rounded-full flex items-center justify-center border-4 border-black shadow-[8px_8px_0px_#b377df]">
-                <span className="text-[8px] lg:text-xs">Negociable</span>
+                <span className="text-[6px] lg:text-xs">Negociable</span>
               </div>
             </div>
             <div>
