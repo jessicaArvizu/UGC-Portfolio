@@ -1,7 +1,4 @@
-import Image from "next/image";
-import jessicaArvizu from '../public/img/jessica-arvizu.png';
-import { FaInstagram, FaTiktok, FaEnvelope, FaAsterisk } from 'react-icons/fa'; // Importa iconos de redes sociales si usas react-icons
-import Star2 from "@/components/ui/star2-icon";
+import { FaInstagram, FaTiktok, FaEnvelope, FaAsterisk } from 'react-icons/fa';
 import Star3 from "@/components/ui/star3-icon";
 
 export default function Contact() {

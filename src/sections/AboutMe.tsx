@@ -1,5 +1,5 @@
 import Image from "next/image";
-import jessicaShot from '../public/img/IMG_2013.jpg';
+import jessicaShot from '../public/img/IMG_Jess.jpg';
 import Star4 from "@/components/ui/star4-icon";
 import { FaLocationDot } from "react-icons/fa6";
 
