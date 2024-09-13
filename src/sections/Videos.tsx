@@ -9,7 +9,7 @@ export default function Videos() {
                 </h2>
             </div>
 
-            <div className="mx-auto grid w-container max-w-full grid-cols-1 gap-10 px-8 lg:px-[20] sm:grid-cols-1 lg:grid-cols-3">
+            <div className="mx-auto grid w-container max-w-full grid-cols-1 gap-10 px-8 lg:px-[20] lg:grid-cols-3 place-items-center">
                 <div
                     className="rounded-lg border-4 bg-white border-black shadow-[8px_8px_0px_#000] p-0 m-0"
                     dangerouslySetInnerHTML={{

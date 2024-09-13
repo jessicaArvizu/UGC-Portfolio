@@ -11,7 +11,7 @@ export default function Services() {
         </h2>
       </div>
 
-      <div className="mx-auto my-14 grid w-container max-w-full grid-cols-1 gap-10 px-8 lg:px-[20] sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto my-14 grid w-container max-w-full grid-cols-1 gap-10 px-8 lg:px-[20] md:grid-cols-1 lg:grid-cols-3">
         <div className="relative flex items-center lg:col-span-1">
           <div className="w-full bg-white border-4 border-black p-8 rounded-lg shadow-[8px_8px_0px_#2AC3A2] relative">
             <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 p-2">
@@ -20,7 +20,7 @@ export default function Services() {
               </div>
             </div>
             <div>
-              <h2 className="text-xl text-center font-semibold mb-4">Videos</h2>
+              <h2 className="text-xl text-center font-semibold md:mb-4 lg:mb-4">Videos</h2>
               <p className="text-base mb-4">
                 Videos de 30 segundos en adelante, en formato vertical (9:16), basados en mi experiencia con el producto o en guía de campaña
               </p>
@@ -37,7 +37,7 @@ export default function Services() {
         </div>
 
         <div className="flex flex-col justify-center lg:col-span-1">
-          <ul className="text-base list-none space-y-2">
+          <ul className="text-base list-none space-y-2 md:mb-4 lg:mb-4">
             <li className="flex items-center">
               <Star3 color='#88FFD1' size='20px' />
               <span className="ml-2">Propuesta de contenido</span>
@@ -83,7 +83,7 @@ export default function Services() {
 
         <div className="relative flex items-center lg:col-span-1 mt-20 lg:mt-5">
           <div className="w-full bg-white border-4 border-black p-8 rounded-lg shadow-[8px_8px_0px_#2AC3A2] relative">
-            <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 p-2">
+            <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 p-2 md:mb-4 lg:mb-4">
               <div className="w-16 h-16 lg:w-32 lg:h-32 bg-[#FFD567] text-black rounded-full flex items-center justify-center border-4 border-black shadow-[8px_8px_0px_#b377df]">
                 <span className="text-[6px] lg:text-xs">Negociable</span>
               </div>
