@@ -7,7 +7,7 @@ import Star3 from "@/components/ui/star3-icon";
 export default function WhoAmI() {
   return (
     <div>
-      <section className="border-t-border dark:border-t-darkBorder dark:bg-darkBg border-t-2 bg-bg py-10 font-base">
+      <section className="border-t-border border-t-2 bg-bg py-10 font-base">
         <Marquee
           className="border-y-border border-y-2 bg-orange py-3 font-base sm:py-5"
           direction="left"
@@ -42,7 +42,7 @@ export default function WhoAmI() {
 
           <div className="flex flex-col justify-center lg:col-span-1">
             <p className="text-lg font-normal leading-relaxed md:text-xl lg:text-2xl">
-              Hola, soy <span className="rounded-full p-1 px-8 bg-mint border-2 border-black">Jessica Arvizu</span>, una creadora de contenido
+              Hola, soy <span className="rounded-full p-1 px-8 bg-mint">Jessica Arvizu</span>, una creadora de contenido
               entusiasta y apasionada.
             </p>
             <br />
