@@ -18,7 +18,7 @@ export default function AboutMe() {
       <div className="mx-auto my-14 grid w-container max-w-full grid-cols-1 gap-5 px-8 lg:px-[20] sm:grid-cols-1 lg:grid-cols-2">
         <div className="flex flex-col justify-center lg:col-span-1">
           <p className="text-sm font-normal leading-relaxed md:text-lg lg:text-xl xl:text-2xl">
-            Soy una persona <span className="rounded-full p-1 px-4 bg-orange">creativa</span> que disfruta documentar cada experiencia,
+            Soy una persona <span className="rounded-full p-1 px-2 bg-lightYellow">creativa</span> que disfruta documentar cada experiencia,
             desde probar nuevas recetas hasta descubrir rincones únicos en mi ciudad.
           </p>
           <br />
@@ -29,16 +29,16 @@ export default function AboutMe() {
           </p>
           <br />
           <p className="text-sm font-normal leading-relaxed md:text-lg lg:text-xl xl:text-2xl">
-            Mi <span className="rounded-full p-1 px-4 bg-lightYellow">objetivo principal</span> es que cada pieza de contenido sea una representación genuina de mí misma,
+            Mi <span className="rounded-full p-1 px-4 bg-blue">objetivo principal</span> es que cada pieza de contenido sea una representación genuina de mí misma,
             conectando con una comunidad que valora lo auténtico y lo cotidiano.
           </p>
         </div>
 
         <div className="relative flex items-center justify-center lg:col-span-1">
           <Image
-            className="rounded-lg border-4 border-black shadow-[8px_8px_0px_#b377df]"
+            className="rounded-lg border-4 border-black shadow-[8px_8px_0px_#FFEA80]"
             src={jessicaShot}
-            alt="Un vaso de latte frío"
+            alt="Foto Jessica Arvizu"
             height={500}
           />
 

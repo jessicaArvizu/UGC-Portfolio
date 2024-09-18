@@ -11,7 +11,7 @@ export default function TikTok() {
             className="bg-bg py-10 lg:py-20">
             <div className="mx-auto w-container max-w-full pb-10">
                 <h2 className="text-center text-2xl font-heading md:text-3xl lg:text-4xl">
-                    TikTok <a href="https://www.tiktok.com/@jessicaarvz" target="_blank" rel="noopener noreferrer">@jessicaarvz</a>
+                    TikTok <a href="https://www.tiktok.com/@jessicaarvz" target="_blank" rel="noopener noreferrer" className="rounded-full p-4 px-8 bg-blue border-2 border-black shadow-[8px_8px_0px_#000]">@jessicaarvz</a>
                 </h2>
             </div>
 
@@ -44,7 +44,7 @@ export default function TikTok() {
                 </div>
                 <div className="flex flex-col justify-center lg:col-span-1">
                     <p className="text-sm font-normal leading-relaxed md:text-lg lg:text-xl xl:text-2xl">
-                        <span className="rounded-full p-1 px-8 bg-mainPink"> TikTok</span> es la plataforma donde más me encanta crear
+                        <span className="rounded-full p-1 px-2 bg-mainPink"> TikTok</span> es la plataforma donde más me encanta crear
                         contenido y conectar con mi audiencia. Aquí es donde
                         comparto la mayor parte de mis vlogs, recetas, hauls, y
                         reseñas de restaurantes y cafeterías.

@@ -8,7 +8,7 @@ export default function Intro() {
   return (
     <section
       id='intro'
-      className="border-t-border border-t-2 bg-bg py-10 font-base">
+      className="bg-bg py-10 lg:py-20">
       <Marquee
         className="border-y-border border-y-2 border-black bg-orange py-3 font-base sm:py-5"
         direction="left"
@@ -43,7 +43,7 @@ export default function Intro() {
 
         <div className="flex flex-col justify-center lg:col-span-1">
           <p className="text-sm font-normal leading-relaxed md:text-lg lg:text-xl xl:text-2xl">
-            Hola, soy <span className="rounded-full p-1 px-8 bg-mint">Jessica Arvizu</span>, una creadora de contenido
+            Hola, soy <span className="rounded-full p-1 px-2 bg-lavender">Jessica Arvizu</span>, una creadora de contenido
             entusiasta y apasionada.
           </p>
           <br />

@@ -17,7 +17,7 @@ export default function Header() {
               Hola, soy
             </h2>
             <br />
-            <h1 className="text-2xl font-heading md:text-4xl lg:text-5xl rounded-full p-4 px-8 bg-mint border-2 border-black shadow-[8px_8px_0px_#2AC3A2]">
+            <h1 className="text-2xl font-heading md:text-4xl lg:text-5xl rounded-full p-4 px-8 bg-mint border-2 border-black">
               Jessica
             </h1>
           </div>
@@ -29,16 +29,28 @@ export default function Header() {
           </div>
 
           <div className="flex justify-center space-x-4 pb-8">
-            <a href="https://linktr.ee/jessicaarvz" target="_blank" rel="noopener noreferrer">
+            <a href="https://linktr.ee/jessicaarvz"
+              className="rounded-full p-2 bg-orange border-2 border-black shadow-[4px_4px_0px_#000]"
+              target="_blank"
+              rel="noopener noreferrer">
               <FaAsterisk className="text-black text-3xl" />
             </a>
-            <a href="https://www.instagram.com/jessicaarvz/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/jessicaarvz/"
+              className="rounded-full p-2 bg-blue border-2 border-black shadow-[4px_4px_0px_#000]"
+              target="_blank"
+              rel="noopener noreferrer">
               <FaInstagram className="text-black text-3xl" />
             </a>
-            <a href="https://www.tiktok.com/@jessicaarvz" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.tiktok.com/@jessicaarvz"
+              className="rounded-full p-2 bg-yellow border-2 border-black shadow-[4px_4px_0px_#000]"
+              target="_blank"
+              rel="noopener noreferrer">
               <FaTiktok className="text-black text-3xl" />
             </a>
-            <a href="mailto:jessica.arvizu.trabajo@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:jessica.arvizu.trabajo@gmail.com"
+              className="rounded-full p-2 bg-darkLavender border-2 border-black shadow-[4px_4px_0px_#000]"
+              target="_blank"
+              rel="noopener noreferrer">
               <FaEnvelope className="text-black text-3xl" />
             </a>
           </div>

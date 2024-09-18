@@ -4,9 +4,8 @@ export default function Videos() {
     return (
         <section
             id='videos'
-            className="py-10 lg:py-20 border-t-border pb-20 border-b-border inset-0 flex w-full flex-col items-center justify-center border-b-2 border-t-2 bg-mainPink bg-[linear-gradient(to_right,#FFC6E733_2px,transparent_2px),linear-gradient(to_bottom,#FFC6E733_2px,transparent_1px)] bg-[size:70px_70px] font-base"
-        >
-            <div className="mx-auto w-container max-w-full py-10">
+            className="bg-bg py-10 lg:py-20">
+            <div className="mx-auto w-container max-w-full pb-10">
                 <h2 className="text-center text-2xl font-heading md:text-3xl lg:text-4xl">
                     Videos
                 </h2>
