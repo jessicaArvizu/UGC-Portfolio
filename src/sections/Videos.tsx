@@ -14,27 +14,20 @@ export default function Videos() {
 
             <div className="mx-auto grid w-container max-w-full grid-cols-1 gap-10 px-8 lg:px-[20] lg:grid-cols-3 place-items-center">
                 <div className="rounded-lg border-4 bg-white border-black shadow-[8px_8px_0px_#000] p-0 m-0">
-                    <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@jessicaarvz/video/7402997528817388806" data-video-id="7402997528817388806" style={{maxWidth: '605px', minWidth: '325px'}}>
+                    <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@jessicaarvz/video/7410780890797755654" data-video-id="7410780890797755654" style={{ maxWidth: '605px', minWidth: '325px' }}>
                         <section>
-                            <a target="_blank" title="@jessicaarvz" href="https://www.tiktok.com/@jessicaarvz?refer=embed">@jessicaarvz</a> Reseña de Elvive Glycolic Gloss | Para nunca dejar de brillar 💫 con @L’Oréal Paris @For_Me @FormetipsMex
-                            <a title="brillarestupoder" target="_blank" href="https://www.tiktok.com/tag/brillarestupoder?refer=embed">#BrillarEsTuPoder</a>
-                            <a title="lorealparismx" target="_blank" href="https://www.tiktok.com/tag/lorealparismx?refer=embed">#lorealparismx</a>
-                            <a title="elvive" target="_blank" href="https://www.tiktok.com/tag/elvive?refer=embed">#elvive</a>
-                            <a title="publicidad" target="_blank" href="https://www.tiktok.com/tag/publicidad?refer=embed">#publicidad</a>
-                            <a title="haircare" target="_blank" href="https://www.tiktok.com/tag/haircare?refer=embed">#haircare</a>
-                            <a title="shampoo" target="_blank" href="https://www.tiktok.com/tag/shampoo?refer=embed">#shampoo</a>
+                            <a target="_blank" title="@jessicaarvz" href="https://www.tiktok.com/@jessicaarvz?refer=embed">@jessicaarvz</a> Reseña Secadora KaringBee 💆‍♀️ | La encontré en Mercado Libre como “Secadora de alta velocidad KaringBee HS01” 🙌🙌
+                            <a title="secadora" target="_blank" href="https://www.tiktok.com/tag/secadora?refer=embed">#secadora</a>
                             <a title="review" target="_blank" href="https://www.tiktok.com/tag/review?refer=embed">#review</a>
-                            <a title="beauty" target="_blank" href="https://www.tiktok.com/tag/beauty?refer=embed">#beauty</a>
-                            <a title="cabellorsaludable" target="_blank" href="https://www.tiktok.com/tag/cabellorsaludable?refer=embed">#cabellorsaludable</a>
-                            <a title="anuncio" target="_blank" href="https://www.tiktok.com/tag/anuncio?refer=embed">#anuncio</a>
+                            <a title="recomendacion" target="_blank" href="https://www.tiktok.com/tag/recomendacion?refer=embed">#recomendacion</a>
                             <a title="capcut" target="_blank" href="https://www.tiktok.com/tag/capcut?refer=embed">#CapCut</a>
-                            <a target="_blank" title="♬ Fashionable sweet LoFi beat loop(1150924) - shince music" href="https://www.tiktok.com/music/Fashionable-sweet-LoFi-beat-loop-1150924-7042059303356663809?refer=embed">♬ Fashionable sweet LoFi beat loop(1150924) - shince music</a>
+                            <a target="_blank" title="♬ LoFi Hip Hop with Saxophone Part1(1243028) - Hamadayama Music Lab" href="https://www.tiktok.com/music/LoFi-Hip-Hop-with-Saxophone-Part1-1243028-7099221533424125954?refer=embed">♬ LoFi Hip Hop with Saxophone Part1(1243028) - Hamadayama Music Lab</a>
                         </section>
                     </blockquote>
                 </div>
 
                 <div className="rounded-lg border-4 bg-white border-black shadow-[8px_8px_0px_#000] p-0 m-0">
-                    <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@jessicaarvz/video/7407454508667718918" data-video-id="7407454508667718918" style={{maxWidth: '605px', minWidth: '325px'}}>
+                    <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@jessicaarvz/video/7407454508667718918" data-video-id="7407454508667718918" style={{ maxWidth: '605px', minWidth: '325px' }}>
                         <section>
                             <a target="_blank" title="@jessicaarvz" href="https://www.tiktok.com/@jessicaarvz?refer=embed">@jessicaarvz</a> 💕¿Tú qué te comprarías? 💕 | Haul de Temu 💸 Link en mi perfil o usa el código: “acq714616” para $1000 mxn de descuentooooooo, coyeye
                             <a title="haul" target="_blank" href="https://www.tiktok.com/tag/haul?refer=embed">#haul</a>
@@ -51,7 +44,7 @@ export default function Videos() {
                 </div>
 
                 <div className="rounded-lg border-4 bg-white border-black shadow-[8px_8px_0px_#000] p-0 m-0">
-                    <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@jessicaarvz/video/7402997528817388806" data-video-id="7402997528817388806" style={{maxWidth: '605px', minWidth: '325px'}}>
+                    <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@jessicaarvz/video/7402997528817388806" data-video-id="7402997528817388806" style={{ maxWidth: '605px', minWidth: '325px' }}>
                         <section>
                             <a target="_blank" title="@jessicaarvz" href="https://www.tiktok.com/@jessicaarvz?refer=embed">@jessicaarvz</a> Reseña de Elvive Glycolic Gloss | Para nunca dejar de brillar 💫 con @L’Oréal Paris @For_Me @FormetipsMex
                             <a title="brillarestupoder" target="_blank" href="https://www.tiktok.com/tag/brillarestupoder?refer=embed">#BrillarEsTuPoder</a>
