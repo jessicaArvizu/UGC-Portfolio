@@ -8,7 +8,7 @@ export default function Stats() {
     return (
         <section
             id='stats'
-            className="bg-bg lg:h-screen py-10 lg:py-20">
+            className="bg-bg py-10 lg:py-20">
             <div className="mx-auto w-container max-w-full pb-10">
                 <h2 className="text-center text-xl font-heading md:text-3xl lg:text-4xl rounded-full p-1 px-8 lg:bg-orange">
                     Te comparto algunas estadísticas de mi TikTok

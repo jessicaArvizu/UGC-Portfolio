@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Lexend_Mega } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: "Jessica Arvizu UGC",
@@ -22,6 +23,7 @@ export default function RootLayout({
         className={`${lexend_mega.className}`}
       >
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );

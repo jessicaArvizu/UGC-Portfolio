@@ -8,7 +8,7 @@ export default function Intro() {
   return (
     <section
       id='intro'
-      className="border-t-border lg:h-screen border-t-2 bg-bg py-10 font-base">
+      className="border-t-border border-t-2 bg-bg py-10 font-base">
       <Marquee
         className="border-y-border border-y-2 border-black bg-orange py-3 font-base sm:py-5"
         direction="left"

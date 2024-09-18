@@ -8,7 +8,7 @@ export default function TikTok() {
     return (
         <section
             id='tiktok'
-            className="bg-bg lg:h-screen py-10 lg:py-20">
+            className="bg-bg py-10 lg:py-20">
             <div className="mx-auto w-container max-w-full pb-10">
                 <h2 className="text-center text-2xl font-heading md:text-3xl lg:text-4xl">
                     TikTok <a href="https://www.tiktok.com/@jessicaarvz" target="_blank" rel="noopener noreferrer">@jessicaarvz</a>

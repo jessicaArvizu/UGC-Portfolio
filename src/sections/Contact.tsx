@@ -2,7 +2,7 @@ import { FaInstagram, FaTiktok, FaEnvelope, FaAsterisk } from 'react-icons/fa';
 
 export default function Contact() {
     return (
-        <footer id='contact' className="inset-0 p-10 flex min-h-[80dvh] w-full flex-col items-center justify-center bg-[#FFB587] bg-[linear-gradient(to_right,#FFF4DE33_2px,transparent_1px),linear-gradient(to_bottom,#FFF4DE33_2px,transparent_1px)] bg-[size:70px_70px]">
+        <footer id='contact' className="inset-0 p-10 flex w-full flex-col items-center justify-center bg-[#FFB587] bg-[linear-gradient(to_right,#FFF4DE33_2px,transparent_1px),linear-gradient(to_bottom,#FFF4DE33_2px,transparent_1px)] bg-[size:70px_70px]">
             <div className="mx-auto max-w-full items-center justify-center px-8 py-10 text-center lg:py-[30px] bg-white rounded-xl border-4 border-black flex flex-col lg:flex-row h-full shadow-[8px_8px_0px_#000] relative">
 
                 <div className="flex flex-col items-center justify-center w-full lg:w-2/3 h-full space-y-3">
