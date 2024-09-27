@@ -47,6 +47,15 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
+            <div className='mt-10'>
+                ¿Te gustó este sitio? También hago
+                <a href='https://www.jessicaarvizu.com'
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className='text-mainPink hover:text-orange'>
+                    {' '}páginas web
+                </a>.
+            </div>
         </footer>
     )
 }
