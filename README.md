@@ -43,8 +43,7 @@ Welcome to my UGC Portfolio! Here, you’ll find all of my user-generated conten
 
 ## Screenshots
 
-![App Screenshot](./public/screenshot.png)
-
+![App Screenshot](./src/public/img/Screenshot.png)
 
 ## License
 
