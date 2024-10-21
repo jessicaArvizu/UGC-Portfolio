@@ -11,7 +11,7 @@ export default function TikTok() {
             className="bg-bg py-10 lg:py-20">
             <div className="mx-auto w-container max-w-full pb-10">
                 <h2 className="text-center text-2xl font-heading md:text-3xl lg:text-4xl">
-                    TikTok <a href="https://www.tiktok.com/@jessicaarvz" target="_blank" rel="noopener noreferrer" className="rounded-full p-4 px-8 bg-blue border-2 border-black shadow-[8px_8px_0px_#000]">@jessicaarvz</a>
+                    TikTok <a href="https://www.tiktok.com/@jessicaarvz" target="_blank" rel="noopener noreferrer" className="underline cursor-pointer">@jessicaarvz</a>
                 </h2>
             </div>
 
