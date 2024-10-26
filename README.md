@@ -14,7 +14,7 @@ Welcome to my UGC Portfolio! Here, you’ll find all of my user-generated conten
 | Color Name    | Hex          | Color |
 | ------------- |------------- |-------|
 | Light Pink |#FFC6E7|![#FFC6E7](https://via.placeholder.com/10/FFC6E7?text=+)|
-| Main Pink |#FF8ACD|![#FF8ACD](https://via.placeholder.com/10/FF8ACD?text=+)|
+| Light Pink |#FF8ACD|![#FF8ACD](https://via.placeholder.com/10/FF8ACD?text=+)|
 | Lavender |#d9beff|![#d9beff](https://via.placeholder.com/10/d9beff?text=+)|
 | Dark Lavender |#b377df|![#b377df](https://via.placeholder.com/10/b377df?text=+)|
 | Light Yellow |#FFEA80|![#FFEA80](https://via.placeholder.com/10/FFEA80?text=+)|
