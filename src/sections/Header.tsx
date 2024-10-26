@@ -61,7 +61,7 @@ export default function Header() {
             className="rounded-lg border-4 border-black shadow-[8px_8px_0px_#B377DF]"
             src={jessicaArvizu}
             alt="Jessica Arvizu"
-            height={400}
+            height={600}
           />
           <div className="absolute z-10 bottom-0 right-0 mb-4 -mr-4 h-20 w-20 bg-yellow rounded-full flex items-center justify-center border-2 border-black shadow-[4px_4px_0px_#FF8A50]">
             <span className="text-black text-lg font-bold">¡Soy yo!</span>

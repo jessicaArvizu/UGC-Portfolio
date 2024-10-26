@@ -28,11 +28,11 @@ export default function TikTok() {
                         <ul className="text-base list-none space-y-2">
                             <li className="flex items-center">
                                 <Star3 color='#FF8ACD' size='20px' />
-                                <span className="ml-2">Comunidad: 4.4K</span>
+                                <span className="ml-2">Comunidad: 5 K</span>
                             </li>
                             <li className="flex items-center">
                                 <Star2 color='#b377df' size='20px' />
-                                <span className="ml-2">Likes: 113K</span>
+                                <span className="ml-2">Likes: 167 K</span>
                             </li>
                             <li className="flex items-center">
                                 <Star4 color='#FF8ACD' size='20px' />

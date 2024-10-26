@@ -1,5 +1,5 @@
 import Image from "next/image"
-import StatsOne from '../public/img/IMG_2857.jpg'
+import StatsOne from '../public/img/IMG_2861.jpg'
 import StatsTwo from '../public/img/IMG_2858.jpg'
 import StatsThree from '../public/img/IMG_2859.jpg'
 
@@ -20,7 +20,7 @@ export default function Stats() {
                     <Image
                         className="rounded-lg border-4 border-black shadow-[8px_8px_0px_#b377df]"
                         src={StatsOne}
-                        alt="Un vaso de latte frío"
+                        alt="Analíticas generales"
                         height={500}
                     />
                 </div>
@@ -28,7 +28,7 @@ export default function Stats() {
                     <Image
                         className="rounded-lg border-4 border-black shadow-[8px_8px_0px_#88FFD1]"
                         src={StatsTwo}
-                        alt="Un vaso de latte frío"
+                        alt="Analítica de viewers"
                         height={500}
                     />
                 </div>
@@ -36,7 +36,7 @@ export default function Stats() {
                     <Image
                         className="rounded-lg border-4 border-black shadow-[8px_8px_0px_#FFEA80]"
                         src={StatsThree}
-                        alt="Un vaso de latte frío"
+                        alt="Analítica de followers"
                         height={500}
                     />
                 </div>

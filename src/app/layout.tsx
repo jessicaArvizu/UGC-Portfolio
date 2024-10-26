@@ -1,16 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Lexend_Mega } from "next/font/google";
+import localFont from 'next/font/local'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: "Jessica Arvizu UGC",
 };
 
-const lexend_mega = Lexend_Mega({
-  weight: '700',
-  subsets: ['latin']
-})
+const rocket_thunder = localFont({ src: '../public/fonts/RocketThunder-Regular.otf'})
 
 export default function RootLayout({
   children,
@@ -20,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lexend_mega.className}`}
+        className={`${rocket_thunder.className}`}
       >
         {children}
         <SpeedInsights />
