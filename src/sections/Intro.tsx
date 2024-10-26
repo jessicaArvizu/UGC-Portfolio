@@ -8,14 +8,14 @@ export default function Intro() {
   return (
     <section
       id='intro'
-      className="bg-bg py-10 lg:py-20">
+      className="bg-bg py-10 lg:py-20 font-Lexend">
       <Marquee
-        className="border-y-border border-y-2 border-black bg-orange py-3 font-base sm:py-5"
+        className="font-Rocket border-y-border border-y-2 border-black bg-orange py-3 font-base sm:py-5"
         direction="left"
       >
-        {['Hauls', 'Lifestyle', 'Beauty', 'Skincare', 'Food'].map((text, index) => (
+        {['HAULS', 'LIFESTYLE', 'BEAUTY', 'SKINCARE', 'FOOD'].map((text, index) => (
           <div className="flex items-center mx-6" key={index}>
-            <span className="text-xl font-heading sm:text-2xl lg:text-4xl mx-4">
+            <span className="text-3xl font-heading sm:text-2xl lg:text-4xl mx-4">
               {text}
             </span>
             <Star3 color={'#FFEA80'} size={'40px'} />
@@ -23,7 +23,7 @@ export default function Intro() {
         ))}
       </Marquee>
 
-      <div className="mx-auto my-14 grid w-container max-w-full grid-cols-1 gap-5 px-8 lg:px-[20] sm:grid-cols-1 lg:grid-cols-2">
+      <div className="mx-auto my-14 px-10 grid w-container max-w-full grid-cols-1 gap-5 lg:px-20 sm:grid-cols-1 lg:grid-cols-2">
         <div className="relative flex items-center justify-center lg:col-span-1">
           <Image
             className="rounded-lg border-4 border-black shadow-[8px_8px_0px_#FFD567]"
@@ -41,7 +41,7 @@ export default function Intro() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center lg:col-span-1">
+        <div className="flex flex-col justify-center lg:col-span-1 mt-10">
           <p className="text-sm font-normal leading-relaxed md:text-lg lg:text-xl xl:text-2xl">
             Hola, soy <span className="rounded-full p-1 px-2 bg-lavender">Jessica Arvizu</span>, una creadora de contenido
             entusiasta y apasionada.

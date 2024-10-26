@@ -6,20 +6,20 @@ export default function Services() {
   return (
     <section
       id='services'
-      className="inset-0 lg:px-10 py-10 lg:py-20 flex w-full flex-col items-center justify-center bg-[#FFD567] bg-[linear-gradient(to_right,#E27F2E33_2px,transparent_1px),linear-gradient(to_bottom,#E27F2E33_2px,transparent_1px)] bg-[size:70px_70px]">
+      className="inset-0 px-5 py-10 lg:py-20 flex w-full flex-col items-center justify-center bg-[#FFD567] bg-[linear-gradient(to_right,#E27F2E33_2px,transparent_1px),linear-gradient(to_bottom,#E27F2E33_2px,transparent_1px)] bg-[size:70px_70px] font-Lexend">
       <div className="mx-auto w-container max-w-full pb-10">
-        <h2 className="text-center text-2xl font-heading md:text-3xl lg:text-4x">
-          Servicios
+        <h2 className="text-center text-4xl font-heading md:text-3xl lg:text-5xl font-Rocket">
+          MIS SERVICIOS
         </h2>
       </div>
 
       <div className="mx-auto grid w-container max-w-full grid-cols-1 gap-20 px-8 lg:px-[20] md:grid-cols-1 lg:grid-cols-2">
         <div className="relative flex items-center lg:col-span-1">
           <div className="w-full bg-white border-4 border-black p-8 rounded-lg shadow-[8px_8px_0px_#b377df] relative">
-            <h2 className="text-xl text-center font-semibold md:mb-4 lg:mb-4">Videos</h2>
+            <h2 className="text-3xl mb-5 lg:text-4xl text-center font-semibold font-Rocket">VIDEOS</h2>
             <div className="absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2 p-2">
               <div className="w-16 h-16 lg:w-24 lg:h-24 bg-blue text-black rounded-full flex items-center justify-center border-4 border-black shadow-[8px_8px_0px_#FF8ACD]">
-                <span className="text-[8px] lg:text-xs">Precios</span>
+                <span className="text-[8px] lg:text-xs">PRECIOS</span>
               </div>
             </div>
             <div>
@@ -90,7 +90,7 @@ export default function Services() {
               </li>
             </ul>
             <br />
-            <h2 className="text-xl font-semibold mb-4">Extras</h2>
+            <h2 className="text-3xl lg:text-4xl font-semibold mb-4 font-Rocket">EXTRAS</h2>
             <ul className="text-base list-none space-y-2">
               <li className="flex items-center">
                 <Star4 color='#88FFD1' size='20px' />

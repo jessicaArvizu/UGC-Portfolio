@@ -10,6 +10,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        Rocket:['var(--font-Rocket)'],
+        Lexend:['var(--font-Lexend)'],
+      },
       width: {
         container: '1300px',
       },

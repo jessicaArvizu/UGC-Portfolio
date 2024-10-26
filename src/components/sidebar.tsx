@@ -9,7 +9,7 @@ export default function Sidebar() {
     };
 
     return (
-        <div>
+        <div className='font-Lexend'>
             {/* Botón para abrir/cerrar el sidebar (visible en dispositivos pequeños y medianos) */}
             <button
                 className="text-3xl p-4 lg:hidden fixed top-4 right-4 z-30 rounded-full border-black border-2 bg-lightYellow shadow-[4px_4px_0px_#000]"

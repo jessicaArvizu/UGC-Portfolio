@@ -4,10 +4,10 @@ export default function Videos() {
     return (
         <section
             id='videos'
-            className="bg-bg py-10 lg:py-20">
+            className="bg-bg py-10 lg:py-20 font-Rocket">
             <div className="mx-auto w-container max-w-full pb-10">
-                <h2 className="text-center text-2xl font-heading md:text-3xl lg:text-4xl">
-                    Videos
+                <h2 className="text-center text-4xl font-heading md:text-3xl lg:text-5xl">
+                    ALGUNOS VIDEOS
                 </h2>
             </div>
 
