@@ -1,7 +1,7 @@
 import Image from "next/image"
-import StatsOne from '../public/img/IMG_2861.jpg'
-import StatsTwo from '../public/img/IMG_2858.jpg'
-import StatsThree from '../public/img/IMG_2859.jpg'
+import StatsOne from '../public/img/IMG_4301.jpg'
+import StatsTwo from '../public/img/IMG_4302.jpg'
+import StatsThree from '../public/img/IMG_4303.jpg'
 
 export default function Stats() {
 
