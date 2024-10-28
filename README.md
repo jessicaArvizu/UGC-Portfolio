@@ -7,7 +7,8 @@ Welcome to my UGC Portfolio! Here, you’ll find all of my user-generated conten
 - [Check out the live site!](www.jessicaarvizuugc.com)
 
 ## Fonts
-**Fonts**: [Rocket Thunder](https://www.myfonts.com/es/collections/rocket-thunder-font-scratch-design?queryId=a9b1beb2a11401046222837d84ba68ab&index=universal_search_data&objectIDs=375492000)
+- Headers: [Rocket Thunder](https://www.myfonts.com/es/collections/rocket-thunder-font-scratch-design?queryId=a9b1beb2a11401046222837d84ba68ab&index=universal_search_data&objectIDs=375492000)
+- Body: [Lexend Mega](https://fonts.google.com/specimen/Lexend+Mega)
 
 ## Color Reference
 
